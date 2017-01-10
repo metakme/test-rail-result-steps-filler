@@ -1,0 +1,25 @@
+{
+	"manifest_version": 2,
+
+	"name" : "Step Results  Filler",
+	"description" : "Allows filling step results when adding results to Test Rail case",
+	"version" : "0.1",
+
+	"page_action" : {
+		"default_title" : "Fill Step Res",
+		"default_popup" : "popup.html",
+		"default_icon" : "icon.png"
+	},
+	
+	"background": {
+		"scripts": [
+			"background.js"
+		],
+		"persistent": false
+	  },
+
+	"permissions": [
+		"http://testrail.ceteracorp.com/",
+		"https://testrail.ceteracorp.com/"
+    ]
+}
