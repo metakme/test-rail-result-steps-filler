@@ -6,7 +6,7 @@
 	"version" : "0.1",
 
 	"page_action" : {
-		"default_title" : "Fill Step Res",
+		"default_title" : "Fill Step Results",
 		"default_popup" : "popup.html",
 		"default_icon" : "icon.png"
 	},
@@ -16,10 +16,5 @@
 			"background.js"
 		],
 		"persistent": false
-	  },
-
-	"permissions": [
-		"http://testrail.ceteracorp.com/",
-		"https://testrail.ceteracorp.com/"
-    ]
+	}
 }
